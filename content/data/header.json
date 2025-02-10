@@ -123,7 +123,7 @@
             "altText": "Members Area",
             "url": "/",
             "icon": "mail",
-            "iconPosition": "right",
+            "iconPosition": "left",
             "style": "secondary",
             "type": "Button",
             "showIcon": true
