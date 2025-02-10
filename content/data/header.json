@@ -73,7 +73,7 @@
         {
             "type": "Link",
             "label": "Home",
-            "altText": "Facebook",
+            "altText": "Home",
             "url": "/",
             "showIcon": true,
             "icon": "facebook",
