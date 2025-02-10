@@ -31,7 +31,8 @@
             "icon": "facebook",
             "iconPosition": "left",
             "style": "secondary",
-            "elementId": ""
+            "elementId": "",
+            "label": "About"
         },
         {
             "label": "Pricing",
