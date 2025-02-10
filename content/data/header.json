@@ -119,7 +119,7 @@
     ],
     "secondaryLinks": [
         {
-            "label": "Sign up",
+            "label": "Members Area",
             "altText": "Sign up",
             "url": "https://app.netlify.com/signup",
             "icon": "arrowRight",
