@@ -24,21 +24,70 @@
             "elementId": ""
         },
         {
-            "label": "Pricing",
-            "url": "/pricing",
-            "icon": "arrowRight",
-            "iconPosition": "right",
+            "type": "Link",
+            "altText": "About",
+            "url": "/about",
+            "showIcon": false,
+            "icon": "facebook",
+            "iconPosition": "left",
             "style": "secondary",
-            "type": "Link"
+            "elementId": "",
+            "label": "About"
         },
         {
-            "label": "Blog",
-            "altText": "Blog",
-            "url": "/blog",
-            "icon": "arrowRight",
-            "iconPosition": "right",
-            "style": "secondary",
-            "type": "Link"
+            "label": "Services",
+            "altText": "Services",
+            "links": [
+                {
+                    "label": "Web & SaaS Development",
+                    "url": "/",
+                    "icon": "arrowRight",
+                    "iconPosition": "right",
+                    "style": "secondary",
+                    "type": "Link",
+                    "showIcon": false
+                },
+                {
+                    "label": "Mobile App Development",
+                    "url": "/",
+                    "icon": "arrowRight",
+                    "iconPosition": "right",
+                    "style": "secondary",
+                    "type": "Link"
+                },
+                {
+                    "label": "Cloud Architecture & DevOps",
+                    "url": "/",
+                    "icon": "arrowRight",
+                    "iconPosition": "right",
+                    "style": "secondary",
+                    "type": "Link"
+                },
+                {
+                    "type": "Link",
+                    "label": "UI/UX Design",
+                    "altText": "",
+                    "url": "/",
+                    "showIcon": false,
+                    "icon": "arrowRight",
+                    "iconPosition": "right",
+                    "style": "secondary",
+                    "elementId": ""
+                },
+                {
+                    "type": "Link",
+                    "label": "SEO, Digital Marketing & Growth",
+                    "altText": "",
+                    "url": "/",
+                    "showIcon": false,
+                    "icon": "arrowRight",
+                    "iconPosition": "right",
+                    "style": "secondary",
+                    "elementId": ""
+                }
+            ],
+            "labelStyle": "secondary",
+            "type": "SubNav"
         },
         {
             "label": "Careers",
@@ -50,55 +99,43 @@
             "type": "Link"
         },
         {
-            "label": "Dropdown",
-            "altText": "Dropdown",
-            "links": [
-                {
-                    "label": "Dropdown item",
-                    "url": "/",
-                    "icon": "arrowRight",
-                    "iconPosition": "right",
-                    "style": "secondary",
-                    "type": "Link"
-                },
-                {
-                    "label": "Dropdown item",
-                    "url": "/",
-                    "icon": "arrowRight",
-                    "iconPosition": "right",
-                    "style": "secondary",
-                    "type": "Link"
-                },
-                {
-                    "label": "Dropdown item",
-                    "url": "/",
-                    "icon": "arrowRight",
-                    "iconPosition": "right",
-                    "style": "secondary",
-                    "type": "Link"
-                }
-            ],
-            "labelStyle": "secondary",
-            "type": "SubNav"
+            "label": "Contact",
+            "url": "/pricing",
+            "icon": "arrowRight",
+            "iconPosition": "right",
+            "style": "secondary",
+            "type": "Link",
+            "altText": "Contact"
+        },
+        {
+            "label": "Blog",
+            "altText": "Blog",
+            "url": "/blog",
+            "icon": "arrowRight",
+            "iconPosition": "right",
+            "style": "secondary",
+            "type": "Link"
         }
     ],
     "secondaryLinks": [
         {
-            "label": "Sign up",
-            "altText": "Sign up",
-            "url": "https://app.netlify.com/signup",
-            "icon": "arrowRight",
+            "label": "Members Area",
+            "altText": "Members Area",
+            "url": "/",
+            "icon": "",
             "iconPosition": "right",
             "style": "secondary",
-            "type": "Button"
+            "type": "Button",
+            "showIcon": false
         },
         {
-            "label": "Log in",
+            "label": "Start A Project",
             "url": "/",
             "icon": "arrowRight",
             "iconPosition": "right",
             "style": "primary",
-            "type": "Button"
+            "type": "Button",
+            "altText": "Start A Project"
         }
     ],
     "variant": "logo-left-primary-nav-centered",
