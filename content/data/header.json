@@ -122,7 +122,7 @@
             "label": "Members Area",
             "altText": "Members Area",
             "url": "/",
-            "icon": "mail",
+            "icon": "",
             "iconPosition": "right",
             "style": "secondary",
             "type": "Button",
