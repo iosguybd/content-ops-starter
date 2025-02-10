@@ -27,7 +27,7 @@
             "type": "Link",
             "altText": "About",
             "url": "/about",
-            "showIcon": true,
+            "showIcon": false,
             "icon": "facebook",
             "iconPosition": "left",
             "style": "secondary",
