@@ -24,6 +24,16 @@
             "elementId": ""
         },
         {
+            "type": "Link",
+            "altText": "Facebook",
+            "url": "/about",
+            "showIcon": true,
+            "icon": "facebook",
+            "iconPosition": "left",
+            "style": "secondary",
+            "elementId": ""
+        },
+        {
             "label": "Pricing",
             "url": "/pricing",
             "icon": "arrowRight",
